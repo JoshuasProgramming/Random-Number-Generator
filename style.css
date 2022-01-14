@@ -1,0 +1,108 @@
+/** 
+ * Random Number Generator CSS File
+ * author(Joshua Thomas)
+ * date(13.01.2022)
+ * version:1.0
+ */
+
+body{
+    background: linear-gradient(to left, #cb356b, #bd3f32);
+}
+
+.key1, .key2, .key3{
+    width:40px;
+    height:40px;
+    margin:10px;
+    background-color:white;
+    float:left;
+    margin-left:190px;
+    margin-right:100px;
+    border-radius:50%;
+}
+
+.key1{
+    background-color:red;
+    opacity:80%;
+    margin:0px 220.3px;
+}
+
+.key1:hover{
+    cursor:pointer;
+    opacity:100%;
+}
+
+.key2{
+    background-color:orange;
+    opacity:80%;
+    margin:0px 190.3px;
+}
+
+.key2:hover{
+    cursor:pointer;
+    opacity:100%;
+}
+
+.key3{
+    background-color:green;
+    opacity:80%;
+    margin:0px 175.3px;
+}
+
+.key3:hover{
+    cursor:pointer;
+    opacity:100%;
+}
+
+.btn{
+    margin:25px 150px;
+    font-size:35px;
+    border-radius:10px;
+    border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;
+    border-bottom-style:none;
+    background-color:#f0f2f0;
+    border:2px solid black;
+    font-family:Tahoma, sans-serif;
+    text-align:center;
+}
+
+.btn:hover{
+    cursor:pointer;
+}
+
+.btn:active{
+    background-color:#cb356b;
+    color:white;
+}
+
+.quote-text{
+    text-align:center;
+    margin-bottom:100px;
+    font-size:55px;
+    font-family:Tahoma, sans-serif;
+}
+
+.header-1{
+    text-align:center;
+    font-size:30px;
+    font-family:Tahoma, sans-serif;
+    color: #f0f2f0;
+}
+
+.header-2{
+    text-align:center;
+    font-size:25px;
+    margin: -20px 20px;
+    font-family:Tahoma, sans-serif;
+    color: #f0f2f0;
+}
+
+.container{
+    width:450px;
+    height:250px;
+    background-color:white;
+    margin:30px 450px;
+    border-radius:19px;
+    box-shadow: 9px 9px 10px black;
+}
